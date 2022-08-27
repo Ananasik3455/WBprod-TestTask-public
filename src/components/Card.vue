@@ -18,8 +18,19 @@
           color="#232633"
           class="pa-4 mb-16 d-flex flex-column flex-grow-1 align-self-stretch"
         >
-          <h4 class="mb-2 body-2 grey--text">Заказ:</h4>
-          <p class="mb-4 white--text">{{ item.idx }}</p>
+          <v-container class="pa-0 d-flex">
+            <v-container class="pa-0">
+              <h4 class="mb-2 body-2 grey--text">Заказ:</h4>
+              <p class="mb-4 white--text">{{ item.idx }}</p>
+            </v-container>
+            <img 
+              width="29"
+              height="24"
+              class="pr-2" 
+              src="../assets/Share.png" 
+              alt=""
+            >
+          </v-container>
 
           <v-container
             class="d-flex px-0 mb-2"
